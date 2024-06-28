@@ -10,7 +10,7 @@ pipeline
             {
                 script
                 {
-                    cicd.gitDownload("mvn")
+                    cicd.gitDownload("jen.git")
                 }
             }
         }
@@ -40,7 +40,7 @@ pipeline
             {
                 script
                 {
-                    cicd.gitDownload("Functiontesting")
+                    cicd.gitDownload("Functionaltesting.git")
                     cicd.runselenium("Multibranch")
                 }
             }
