@@ -30,7 +30,7 @@ pipeline
             {
                 script
                 {
-                    cicd.deploy("Multibranch","172.31.46.229","testapp")
+                    cicd.deploy("Testing","172.31.46.229","testapp")
                 }
             }
         }
@@ -41,7 +41,7 @@ pipeline
                 script
                 {
                     cicd.gitDownload("Functionaltesting.git")
-                    cicd.runselenium("Multibranch")
+                    cicd.runselenium("Testing")
                 }
             }
         }
@@ -51,7 +51,7 @@ pipeline
             {
                 script
                 {
-                    cicd.deploy("Multibranch","172.31.38.218","prod")
+                    cicd.deploy("Testing","172.31.38.218","prod")
                 }
             }
         }
