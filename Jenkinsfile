@@ -10,7 +10,7 @@ pipeline
             {
                 script
                 {
-                    cicd.gitDownload("jen.git")
+                    cicd.gitDownload("jen")
                 }
             }
         }
