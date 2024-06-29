@@ -40,7 +40,7 @@ pipeline
             {
                 script
                 {
-                    cicd.gitDownload("Functionaltesting.git")
+                    cicd.gitDownload("Functionaltesting")
                     cicd.runselenium("Testing")
                 }
             }
